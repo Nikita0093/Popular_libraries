@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTextNumberOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Button_One">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnNumberOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_One">
+
+    </Button>
+    <TextView
+        android:id="@+id/tvTextNumberTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Button_Two">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnNumberTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_Two">
+
+    </Button>
+    <TextView
+        android:id="@+id/tvTextNumberThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Button_Three">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnNumberThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_Three">
+
+    </Button>
+
+
+</LinearLayout>
