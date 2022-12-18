@@ -13,19 +13,22 @@ class MainActivity : AppCompatActivity(), MainView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+        setTheme(R.style.Theme_Popular_libraries)
         setContentView(binding.root)
+
+        initPresenter()
 
         with(binding) {
             btnNumberOne.setOnClickListener {
-                presenter.onCounterClick(R.id.btnNumberOne)
+                presenter.onCounterClickBtnOne()
             }
 
             btnNumberTwo.setOnClickListener {
-                presenter.onCounterClick(R.id.btnNumberTwo)
+                presenter.onCounterClickBtnTwo()
             }
 
             btnNumberThree.setOnClickListener {
-                presenter.onCounterClick(R.id.btnNumberThree)
+                presenter.onCounterClickBtnThree()
             }
         }
 
@@ -36,16 +39,17 @@ class MainActivity : AppCompatActivity(), MainView {
         presenter = CountersPresenter(this)
     }
 
-    override fun setText(counter: String, id: Int) {
-        with(binding) {
-            when (id) {
-                0 -> tvTextNumberOne.text = counter
-                1 -> tvTextNumberTwo.text = counter
-                2 -> tvTextNumberThree.text = counter
-            }
 
-        }
+    override fun setTextBtnOne(counter: String) {
+        binding.tvTextNumberOne.text = counter
 
+    }
 
+    override fun setTextBtnTwo(counter: String) {
+        binding.tvTextNumberTwo.text = counter
+    }
+
+    override fun setTextBtnThree(counter: String) {
+        binding.tvTextNumberThree.text = counter
     }
 }

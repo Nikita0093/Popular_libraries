@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Popular_libraries</string>
+    <string name="this_is_the_button_one">This is the Button_One</string>
+    <string name="button_one">Button_One</string>
+    <string name="this_is_the_button_two">This is the Button_Two</string>
+    <string name="button_two">Button_Two</string>
+    <string name="this_is_the_button_three">This is the Button_Three</string>
+    <string name="button_three">Button_Three</string>
 </resources>

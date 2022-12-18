@@ -9,13 +9,23 @@ class CountersModel {
     }
 
 
-    fun next(position: Int): Int {
+    fun nextPositionOne(): String {
 
-        return counters[position]++
+        return counters[0]++.toString()
+    }
+
+    fun nextPositionTwo(): String {
+
+        return counters[1]++.toString()
+    }
+
+    fun nextPositionThree(): String {
+
+        return counters[2]++.toString()
     }
 
 
-    fun set(position: Int, value: Int): Boolean{
+    fun set(position: Int, value: Int): Boolean {
 
         counters[position] = value
 

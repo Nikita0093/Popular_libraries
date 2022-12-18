@@ -11,7 +11,7 @@
         android:id="@+id/tvTextNumberOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the Button_One">
+        android:text="@string/this_is_the_button_one">
 
     </TextView>
 
@@ -19,14 +19,14 @@
         android:id="@+id/btnNumberOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button_One">
+        android:text="@string/button_one">
 
     </Button>
     <TextView
         android:id="@+id/tvTextNumberTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the Button_Two">
+        android:text="@string/this_is_the_button_two">
 
     </TextView>
 
@@ -34,14 +34,14 @@
         android:id="@+id/btnNumberTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button_Two">
+        android:text="@string/button_two">
 
     </Button>
     <TextView
         android:id="@+id/tvTextNumberThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is the Button_Three">
+        android:text="@string/this_is_the_button_three">
 
     </TextView>
 
@@ -49,7 +49,7 @@
         android:id="@+id/btnNumberThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button_Three">
+        android:text="@string/button_three">
 
     </Button>
 
